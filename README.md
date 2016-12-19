@@ -31,4 +31,23 @@ Let people know how they can dive into the project, include important links to t
 
 A short snippet describing the license (MIT, Apache, etc.)
 
-![alt tag](http://unleashedunlimited.com/wp-content/uploads/2010/06/google-is-dog-friendly.jpg)
+## Screenshots
+
+Screenshots of gameplay, and of our progress
+
+![alt tag](https://github.com/karledler/Senior-Project/blob/master/Screenshots/Buildings.png)
+![alt tag](https://github.com/karledler/Senior-Project/blob/master/Screenshots/Campco.png)
+![alt tag](https://github.com/karledler/Senior-Project/blob/master/Screenshots/Car.png)
+![alt tag](https://github.com/karledler/Senior-Project/blob/master/Screenshots/Car2.png)
+![alt tag](https://github.com/karledler/Senior-Project/blob/master/Screenshots/CarProgress.png)
+![alt tag](https://github.com/karledler/Senior-Project/blob/master/Screenshots/EarlyMap.png)
+![alt tag](https://github.com/karledler/Senior-Project/blob/master/Screenshots/EarlyMapProgress.png)
+![alt tag](https://github.com/karledler/Senior-Project/blob/master/Screenshots/EarlyMapProgress2.png)
+![alt tag](https://github.com/karledler/Senior-Project/blob/master/Screenshots/FinalMap.png)
+![alt tag](https://github.com/karledler/Senior-Project/blob/master/Screenshots/Gameplay.png)
+![alt tag](https://github.com/karledler/Senior-Project/blob/master/Screenshots/Gameplay2.png)
+![alt tag](https://github.com/karledler/Senior-Project/blob/master/Screenshots/Gameplay3.png)
+![alt tag](https://github.com/karledler/Senior-Project/blob/master/Screenshots/Gulliftys.png)
+![alt tag](https://github.com/karledler/Senior-Project/blob/master/Screenshots/MapAerial.png)
+![alt tag](https://github.com/karledler/Senior-Project/blob/master/Screenshots/MovingCar.png)
+![alt tag](https://github.com/karledler/Senior-Project/blob/master/Screenshots/RiverProgress.png)

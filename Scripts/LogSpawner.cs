@@ -1,0 +1,36 @@
+﻿using UnityEngine;
+using System.Collections;
+
+public class LogSpawner : MonoBehaviour
+{
+    public float spawnTime = 3f;
+
+    //public bool randomize = false;
+
+    void Start()
+    {
+        //if (randomize == true)
+        //{
+        //  spawnTime = Random.Range(2, 4);
+        //}
+        InvokeRepeating("SpawnSomethingPlease", 0, spawnTime);
+    }
+
+
+
+    public Transform[] spawnLocations;
+    public GameObject[] whatToSpawnPrefab;
+    public GameObject[] whatToSpawnClone;
+
+    void SpawnSomethingPlease()
+    {
+        whatToSpawnClone[0] = Instantiate(whatToSpawnPrefab[0], spawnLocations[0].transform.position, Quaternion.Euler(0, 90, 0)) as GameObject;
+        whatToSpawnClone[0] = Instantiate(whatToSpawnPrefab[0], spawnLocations[1].transform.position, Quaternion.Euler(0, 270, 0)) as GameObject;
+        /*  whatToSpawnClone[0] = Instantiate(whatToSpawnPrefab[0], spawnLocations[2].transform.position, Quaternion.Euler(0, 180, 0)) as GameObject;
+          whatToSpawnClone[0] = Instantiate(whatToSpawnPrefab[0], spawnLocations[3].transform.position, Quaternion.Euler(0, 180, 0)) as GameObject;
+          whatToSpawnClone[0] = Instantiate(whatToSpawnPrefab[0], spawnLocations[4].transform.position, Quaternion.Euler(0, 0, 0)) as GameObject;
+          whatToSpawnClone[0] = Instantiate(whatToSpawnPrefab[0], spawnLocations[5].transform.position, Quaternion.Euler(0, 0, 0)) as GameObject;
+          whatToSpawnClone[0] = Instantiate(whatToSpawnPrefab[0], spawnLocations[6].transform.position, Quaternion.Euler(0, 0, 0)) as GameObject;
+          whatToSpawnClone[0] = Instantiate(whatToSpawnPrefab[0], spawnLocations[7].transform.position, Quaternion.Euler(0, 0, 0)) as GameObject;*/
+    }
+}

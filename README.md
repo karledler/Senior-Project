@@ -30,3 +30,5 @@ Let people know how they can dive into the project, include important links to t
 ## License
 
 A short snippet describing the license (MIT, Apache, etc.)
+
+![alt tag](http://unleashedunlimited.com/wp-content/uploads/2010/06/google-is-dog-friendly.jpg)

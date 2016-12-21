@@ -1,0 +1,28 @@
+﻿using UnityEngine;
+using System.Collections;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
+
+public class Winner : MonoBehaviour
+{
+
+
+
+    public GameObject player;
+    //public bool winText=false;
+    public Text winText;
+
+    void Start()
+    {
+        Update();
+    }
+    void Update()
+    {
+        {
+            if (player.transform.position.x > 100)
+            {
+                winText.text="You win";
+            }
+        }
+    }
+}

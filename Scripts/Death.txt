@@ -1,0 +1,22 @@
+﻿using UnityEngine;
+using System.Collections;
+using UnityEngine.SceneManagement;
+
+public class Death : MonoBehaviour
+{
+
+
+
+    public GameObject player;
+    public Transform destination;
+
+    void Update()
+    {
+        {
+            if (player.transform.position.y < -2)
+            {
+                this.player.transform.position = destination.position;
+            }
+        }
+    }
+}

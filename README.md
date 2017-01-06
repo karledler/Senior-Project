@@ -38,6 +38,12 @@ https://youtu.be/G30GYbh3aPs
 
 https://youtu.be/hDXQEtKEF8s
 
+## Scrum Board
+
+Check out what went in to each sprint backlog!
+
+https://trello.com/b/Hk27eaQr/senior-project
+
 ## Screenshots
 
 Screenshots of gameplay, and of our progress.
